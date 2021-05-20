@@ -8,10 +8,10 @@ import java.sql.*;
 import java.util.Scanner;
 
 public class DbConnection {
-    private final String host = "10.98.98.61";
-    private final String username = "group3";
-    private final String db_name = "group3";
-    private final String password = "FV?DUN@87VQxLy7D";
+    private final String host = "host";
+    private final String username = "username";
+    private final String db_name = "groupname";
+    private final String password = "password";
     private final int port =5432;
 
     private Connection con = null;
